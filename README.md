@@ -8,7 +8,7 @@
 $ git clone https://github.com/satriows25/dicoding-notes-app-backend.git
 $ cd dicoding-notes-app-backend
 $ npm install
-$ npm start-dev
+$ npm run start-dev
 ```
 
 ## Postman Collection dan Environment untuk Notes API
