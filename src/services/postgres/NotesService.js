@@ -68,7 +68,7 @@ class NotesService {
     const query = {
       text: 'DELETE FROM notes WHERE id = $1',
       values: [id]
-    }
+    };
 
     const result = await this._pool.query(query);
 
@@ -76,6 +76,6 @@ class NotesService {
       throw new NotFoundError('Catatan gagal dihapus. Id tidak ditemukan');
     }
   }
-};
+}
 
 module.exports = NotesService;
