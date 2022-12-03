@@ -2,6 +2,27 @@
 
 > Proyek latihan kelas [Belajar Fundamental Aplikasi Back-End](https://www.dicoding.com/academies/271) di [Dicoding Indonesia](https://www.dicoding.com).
 
+## Mengonfigurasi Environment
+- File `.env` (development):
+```
+# server configuration
+HOST=localhost
+PORT=5000
+
+# node-postgres configuration
+PGUSER=
+PGHOST=localhost
+PGPASSWORD=
+PGDATABASE=notesapp
+PGPORT=5432
+```
+- File `.prod.env` (production):
+```
+# server configuration
+HOST=0.0.0.0
+PORT=5000
+```
+
 ## Menjalankan di local
 
 ```bash
