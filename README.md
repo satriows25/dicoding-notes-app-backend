@@ -4,7 +4,7 @@
 
 ## Mengonfigurasi Environment
 
-- File `.env` (development):
+File `.env` (development):
 
 ```
 # server configuration
@@ -17,14 +17,6 @@ PGHOST=localhost
 PGPASSWORD=
 PGDATABASE=notesapp
 PGPORT=5432
-```
-
-- File `.prod.env` (production):
-
-```
-# server configuration
-HOST=0.0.0.0
-PORT=5000
 ```
 
 ## Menjalankan di local
