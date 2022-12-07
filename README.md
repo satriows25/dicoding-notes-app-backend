@@ -25,6 +25,7 @@ PGPORT=5432
 $ git clone https://github.com/satriows25/dicoding-notes-app-backend.git
 $ cd dicoding-notes-app-backend
 $ npm install
+$ npm run migrate up
 $ npm run start-dev
 ```
 
