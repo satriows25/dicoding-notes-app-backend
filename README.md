@@ -17,6 +17,11 @@ PGHOST=localhost
 PGPASSWORD=
 PGDATABASE=notesapp
 PGPORT=5432
+
+# JWT Token
+ACCESS_TOKEN_KEY=
+REFRESH_TOKEN_KEY=
+ACCESS_TOKEN_AGE=1800
 ```
 
 ## Menjalankan di local
