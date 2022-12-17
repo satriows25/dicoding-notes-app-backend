@@ -28,7 +28,7 @@ const collaborations = require('./api/collaborations');
 const CollaborationsService = require('./services/postgres/CollaborationsService');
 const CollaborationsValidator = require('./validator/collaborations');
 
-// Exports
+// exports
 const _exports = require('./api/exports');
 const ProducerService = require('./services/rabbitmq/ProducerService');
 const ExportsValidator = require('./validator/exports');
@@ -36,6 +36,7 @@ const ExportsValidator = require('./validator/exports');
 // uploads
 const uploads = require('./api/uploads');
 const StorageService = require('./services/storage/StorageService');
+// const StorageService = require('./services/S3/StorageService'); // Using Amazon S3
 const UploadsValidator = require('./validator/uploads');
 
 const init = async () => {
@@ -46,6 +47,7 @@ const init = async () => {
   const storageService = new StorageService(
     path.resolve(__dirname, 'api/uploads/file/images')
   );
+  // const storageService = new StorageService(); // Using Amazon S3
 
   const server = Hapi.server({
     port: process.env.PORT,

@@ -25,6 +25,11 @@ ACCESS_TOKEN_AGE=1800
 
 # Message broker
 RABBITMQ_SERVER=amqp://localhost
+
+# aws-sdk
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_BUCKET_NAME=
 ```
 
 ## Menjalankan di local
