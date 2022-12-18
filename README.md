@@ -30,6 +30,9 @@ RABBITMQ_SERVER=amqp://localhost
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
 AWS_BUCKET_NAME=
+
+# Redis
+REDIS_SERVER=localhost
 ```
 
 ## Menjalankan di local
