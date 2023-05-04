@@ -1,7 +1,7 @@
 {
   "name": "dicoding-notes-app-backend",
   "version": "1.0.0",
-  "description": "Proyek latihan kelas Belajar Fundamental Aplikasi Back-End di Dicoding Indonesia.",
+  "description": "The Notes App Back-End project is a RESTful API back-end application that implements several important features, including a PostgreSQL database, JWT-based authentication and authorization, RabbitMQ message broker for exporting notes, storage, and Redis-based caching.",
   "main": "index.js",
   "scripts": {
     "start-prod": "NODE_ENV=production node ./src/server.js",
